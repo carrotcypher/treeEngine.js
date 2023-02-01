@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decision tree / flow chart prompt engine demo</title>
+        <script src="treeengine.js"></script>
+        <style>
+            .treeRoot {
+                /*** Stylize the area containing the prompt and choices ***/
+ 
+                text-align: center;
+                border:1px solid #000;
+                width:25%
+            }
+            .treePrompt {
+                /*** Stylize the question prompt ***/
+ 
+                display: inline-block;
+                padding: .75rem 1.25rem;
+                margin:.75rem;
+                color: #000000;
+                font-size: 1rem;
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+                
+            }
+            .treeChoice {
+                /*** Stylize the answer / selection buttons for the prompts ***/
+ 
+                display: inline-block;
+                padding: .75rem 1.25rem;
+                margin:.75rem;
+                color: #000000;
+                font-size: 1rem;
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <p>This is an example page using the decision tree / flow chart prompt engine.</p>
+        <div id="treeRoot" class="treeRoot">
+            <div id="treeStump" class="treeChoice"></div>
+            <div id="treeStumpChoices"></div>
+        </div>
+    </body>
+    <script>treeEngineInit()</script>
+
+</html>
