@@ -12,7 +12,7 @@ Ideal for:
 
 The object `treeSlides` contains the entire structure of the decision tree.
 
-```
+```js
 const treeSlides = {
     prompt:"Here is a sample first question",
     choices:{
@@ -55,7 +55,7 @@ There is no limit to how many questions or responses you can insert.
 
 # How to style it
 
-```
+```css
   .treeRoot {
       /*** Stylize the area containing the prompt and choices ***/
 
