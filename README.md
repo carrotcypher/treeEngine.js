@@ -2,6 +2,8 @@
 
 Easy to design decision tree / flow chart prompts for your website.
 
+See [the demo here via GitHub Pages](https://carrotcypher.github.io/treeEngine.js/).
+
 Ideal for:
 
 * Quizzes
