@@ -10,7 +10,7 @@ Ideal for:
 * Yes/No questionnaires
 * Implementing any flow chart into clickable button prompts
 
-## How to use it
+## How to "program" it
 
 The object `treeSlides` contains the entire structure of the decision tree.
 
@@ -58,6 +58,26 @@ There is no limit to how many questions or responses you can insert.
 `choices` contains the nested object of all available choices for that prompt
 
 `exec` is an optional attribute that executes the named JS function if chosen (in case your script needs to perform an action depending on the answer)
+
+# How to implement it
+
+Drop the `div`s anywhere in your existing website where you want it to be displayed. Then, add the `treeEngineInit()` function to the end of the body.
+
+Example:
+```html
+
+    <body>
+        
+        <p>What kind of exercise should I do?</p>
+        <div id="treeRoot" class="treeRoot">
+            <div id="treeStump" class="treeChoice"></div>
+            <div id="treeStumpChoices"></div>
+        </div>
+    </body>
+
+    <script>treeEngineInit()</script>
+```
+Only `treeStump` and `treeStumpChoices` are required for functionality. `treeRoot` is just a placeholder for CSS styling convenience.
 
 # How to style it
 
