@@ -103,4 +103,11 @@ This project is dog food. After scouring the web for an open source "decision tr
 
 The closest things I could find were closed source, convoluted, over-engineered, or not designed for creating public websites.
 
+## License
+
+![Creative Commons Zero v1.0 Universal](https://i.creativecommons.org/p/zero/1.0/88x31.png)
+
+Creative Commons Zero v1.0 Universal
+
+"No rights reserved"
 
