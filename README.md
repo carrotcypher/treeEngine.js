@@ -28,6 +28,10 @@ const treeSlides = {
                             prompt:"You answered yes to the last question. That's it!",
                             exec:"callThisFunction"
                         },
+                        "Maybe":{
+                            prompt:"You answered maybe to the last question. That's it!",
+                            exec:"callThisFunction"
+                        },
                         "No":{
                             prompt:"You answered no to the last question. That's it!",
                             exec:"callThisFunction"
